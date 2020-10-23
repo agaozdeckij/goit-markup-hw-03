@@ -77,7 +77,7 @@ span.web-footer {
   color: var(--accent-text-color);
   font-family: Raleway, sans-serif;
 }
-.border-header {
+header {
   border-bottom: 1px solid #ececec;
 }
 .main-nav {
@@ -256,9 +256,10 @@ span.web-footer {
 }
 .content {
   padding-top: 0;
-  padding-right: 59px;
+  padding-right: 57px;
   padding-left: 60px;
   background-color: var(--primary-white-color);
+  text-align: center;
 }
 
 /* Кнопка на index.html */
