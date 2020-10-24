@@ -39,7 +39,9 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1210px;
 }
 /* logo стили */
 .logo-header {
@@ -203,17 +205,25 @@ header {
 .examples {
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
   margin-top: 0;
   margin-bottom: 94px;
 }
-
+.example-photo {
+  margin-left: 30px;
+}
+.example-photo:first-child {
+  margin-left: 0;
+}
 /* Our team */
+.team {
+  background-color: var(--bgc-team);
+}
 .personal-name {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .section-team {
-  background-color: var(--bgc-team);
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -257,7 +267,7 @@ header {
 .content {
   padding-top: 0;
   padding-right: 57px;
-  padding-left: 60px;
+  padding-left: 59px;
   background-color: var(--primary-white-color);
   text-align: center;
 }
@@ -356,7 +366,7 @@ header {
 }
 .card-info {
   border: 1px solid #eeeeee;
-  width: 370px;
+  max-width: 370px;
 }
 .card-info {
   margin-bottom: 30px;
